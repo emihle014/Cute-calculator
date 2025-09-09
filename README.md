@@ -13,7 +13,7 @@ Made with **HTML, CSS, and JavaScript**
 - ** Works on desktop and mobile **
 
 Live Demo
-[Click here to use the calculator](https://emihle014.github.io/cute-pink-calculator/)
+[Click here to use the calculator](https://emihle014.github.io/Cute-calculator/)
 
 ## Installation
 1. Clone the repo:
