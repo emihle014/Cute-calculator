@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Pink Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="calc-brand">💖 Cute Calc 💖</div>
+
+    <!-- Display -->
+    <div class="display">
+      <div class="previous-operand" id="previous"></div>
+      <div class="current-operand" id="current">0</div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="btn power on">ON</button>
+      <button class="btn memory">M+</button>
+      <button class="btn memory">MC</button>
+      <button class="btn memory">MR</button>
+      <button class="btn power off">OFF</button>
+
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operator">%</button>
+      <button class="btn function clear">CE</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operator">×</button>
+      <button class="btn operator">-</button>
+
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operator">+</button>
+
+      <button class="btn zero">0</button>
+      <button class="btn">00</button>
+      <button class="btn">.</button>
+      <button class="btn equals">=</button>
+    </div>
+  </div>
+
+  <!-- Click sound -->
+  <audio id="click-sound" src="https://www.soundjay.com/buttons/sounds/button-16.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
